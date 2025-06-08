@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Table</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      background-color: #fff;
+    }
+
+    th, td {
+      border: 2px solid #4CAF50;
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #e6ffe6;
+    }
+
+    tr:hover {
+      background-color: #d1f0ff;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Academic Records</caption>
+    <tr>
+      <th rowspan="2">S.No</th>
+      <th colspan="2">Student Details</th>
+      <th rowspan="2">CGPA (Till Last Sem)</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Registration No</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Harsh Kumar</td>
+      <td>22105110032</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Nayan Mishra</td>
+      <td>22105110038</td>
+      <td>8.7</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Subhash Kumar Ray</td>
+      <td>22105110037</td>
+      <td>9.0</td>
+    </tr>
+  </table>
+
+</body>
+</html>
